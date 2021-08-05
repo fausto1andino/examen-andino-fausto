@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 var hbs = require('hbs');
 require('./hbs/helper');
+const port = process.env.PORT || 3000;
 
 app.use(express.static(__dirname + '/public'));
 hbs.registerHelper('helper_name', function (options) { return 'helper value'; });
@@ -18,7 +19,8 @@ app.set('view engine', 'hbs');
 
 
 
-app.listen(8080,()=>{
+app.listen(port,()=>{
+   console.log('Escuchando en el puerto ');
  })
 
 
