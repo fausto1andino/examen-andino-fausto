@@ -1,0 +1,48 @@
+
+img:hover{
+    border-color: #74c69d;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em #2d6a4f;
+    transform: translateY(-0.3em);
+}
+
+
+header{
+    background-image: url("https://previews.123rf.com/images/leoedition/leoedition1710/leoedition171000577/88752851-antecedentes-m%C3%A9dicos-atenci%C3%B3n-m%C3%A9dica-cuidado-de-la-salud-ilustraci%C3%B3n-de-vector-medicina.jpg");
+    display: flex;
+    display: block;
+    color: #caf0f8;
+    margin: 0;
+    padding: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+aside{
+    background-color: #d8e2dc;
+    display: flex;
+    color: #293241;
+    margin: 0;
+    padding: 50px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: #03045e;
+    display: flex;
+    color: #caf0f8;
+    margin: 0;
+    padding: 50px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+
+
